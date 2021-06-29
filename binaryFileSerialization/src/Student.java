@@ -1,25 +1,21 @@
 import java.io.Serializable;
 
 public class Student implements Serializable {
-    private int id;
+
     private String name;
-    private String address;
+    private int age;
+
+    private String gender;
+    private  String phone;
 
     public Student() {
     }
 
-    public Student(int id, String name, String address) {
-        this.id = id;
+    public Student(String name, int age, String gender, String phone) {
         this.name = name;
-        this.address = address;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+        this.age = age;
+        this.gender = gender;
+        this.phone = phone;
     }
 
     public String getName() {
@@ -30,20 +26,37 @@ public class Student implements Serializable {
         this.name = name;
     }
 
-    public String getAddress() {
-        return address;
+    public int getAge() {
+        return age;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     @Override
     public String toString() {
         return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", address='" + address + '\'' +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender='" + gender + '\'' +
+                ", phone='" + phone + '\'' +
                 '}';
     }
 }

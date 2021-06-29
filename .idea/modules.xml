@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/QLSP/QLSP.iml" filepath="$PROJECT_DIR$/QLSP/QLSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binaryFileSerialization/QLSPNhiPhan.iml" filepath="$PROJECT_DIR$/binaryFileSerialization/QLSPNhiPhan.iml" />
       <module fileurl="file://$PROJECT_DIR$/binaryFileSerialization/binaryFileSerialization.iml" filepath="$PROJECT_DIR$/binaryFileSerialization/binaryFileSerialization.iml" />
       <module fileurl="file://$PROJECT_DIR$/tuan3Module2.iml" filepath="$PROJECT_DIR$/tuan3Module2.iml" />
     </modules>
